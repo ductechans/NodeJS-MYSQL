@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <title>Profile</title>
+</head>
+<body>
+  <div class="container mt-4">
+    <div class="jumbotron">
+    <h1 class="display-4">Welcome, <%= user.name %>!</h1>
+    <hr class="my-4">
+    <h2 class="display-4">MY PROFILE</h2>
+    <p class="lead">Name: <%= user.name %></p>
+    <p class="lead">Email: <%= user.email %></p>
+    <hr class="my-4">
+    <p>Author: HUYNH DUC B2000534</p>
+    <p>Informatics Teacher Education - School of Education</p>
+    <p>Project for Web Programming course (CT428)</p>
+    <hr class="my-4">
+    <a href="/logout">Logout</a>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+</body>
+</html>
